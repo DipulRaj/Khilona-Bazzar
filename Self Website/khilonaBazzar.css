@@ -1,0 +1,319 @@
+body{
+    background-color: white;
+    margin: 0rem;
+    font-family: "Fredoka", sans-serif;
+}
+
+.mainBox{
+    height: 100vh;
+    width: 100%;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+.announce_bar{
+    position: fixed;
+}
+
+.announce_bar li{
+    display: inline;
+    margin: 5rem;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.announce_bar marquee{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #62969d;
+    height: 2.893rem;
+    width: 100%;
+}
+
+
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.menuheader{
+    height: 6.096rem;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 2.893rem;
+    width: 100%;
+    padding-top: 0.3rem;
+    background-color: white;
+   border-bottom: 2px solid #0000003f;
+}
+
+.logoimg{
+    width: 10rem;
+    margin: 0rem 1rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoimg img{
+    height: 6.1rem;
+}
+
+.mainmenu{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.userbox{
+    width: 15rem;
+    height: 100%;
+}
+
+.userbox{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.search{
+    border: none;
+    height: 2rem;
+    width: 10rem;
+    padding: 0.3rem 2rem;
+    border-radius: 100px;
+    margin-left: 1rem;
+    background-color: gray;
+}
+
+#log-reg{
+    margin-left: 1rem;;
+}
+
+.userbox a i{
+    margin-left: 0.3rem;
+    font-size: 1.5rem;
+}
+
+#find{
+    margin-left: 0.5rem;
+}
+
+.search-box label i{
+    font-size: 1.3rem;
+    position: absolute;
+    right: 12.7rem;
+    margin-top: -0.5rem;
+    color: white;
+}
+
+.search-box{
+    display: flex;
+    align-items: center;
+}
+
+.search-box input::placeholder{
+    color: white;
+    font-size: 0.8rem;
+}
+
+.search-box input[type="text"]{
+    color: white;
+    font-size: 1rem;
+}
+
+#log-reg button{
+    border: none;
+    background-color: #3ec16e;
+    color: white;
+    height: 2.2rem;
+    padding: 0.3rem 0.5rem;
+    font-size: 1rem;
+    font-weight: 600px;
+    border-radius: 10px;
+    
+}
+
+#log-reg button:hover{
+    background-color: #44bb52;
+    transform: scale(1.03);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.advertisement-section{
+    height: 35rem;
+    width: 100%;
+    background-image: url("poster2.png");
+    background-size: cover;
+}
+
+.product-box{
+    height: 31.06rem;
+    width: 100%;
+}
+
+.product-tittle{
+    width: 100%;
+    height: 2.45rem;
+    text-align: center;
+}
+
+.item-box{
+    width: 17.34rem;
+    height: 25.55rem;
+    padding: 0.93rem;
+    margin: 1rem;
+    display: grid;
+    justify-items: center;
+    row-gap: 0.5rem;
+}
+.item-box img{
+    width: 15.46rem;
+    height: 15.46rem;
+}
+
+.item-name{
+    font-size: 1.5rem;
+    height: 2rem;
+    text-align: center;
+}
+
+.item-price{
+    line-height: 3rem;
+    font-size: 1.5rem;
+    height: 2rem;
+}
+
+.item-add-cart button{
+    height: 3rem;
+    font-size: 1.3rem;
+    border: none;
+    width: 9rem;
+    padding: 0.5rem;
+    border-radius: 100px;
+    background-color: #c23564;
+    color: white;
+}
+
+.item-add-cart button:hover{
+    transform:scale(1.04);
+    transition-duration: 0.5rem;
+    background-color: #bd1e51;
+    cursor: pointer;
+}
+
+.product-box{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.item-box:hover{
+    border: 1px solid #8080805f;
+    border-radius: 5px;
+   
+}
+
+.footer{
+    height: 22.12rem;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.information{
+    padding: 2rem 0rem 0rem 5rem;
+    width: 13rem;
+    height: 16.5;
+}
+
+.information li{
+    list-style-type: none;
+}
+
+.information li a{
+    font-size: 1.2rem;
+    color: white;
+    line-height: 2rem;
+}
+
+.info-Heading{
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.info-Heading a{
+    color: gold;
+}
+
+.info-Heading a:hover{
+    text-decoration: underline;
+}
+
+.information li a:hover{
+    text-decoration: underline;
+}
+
+#socialMedia li{
+    display: inline;
+    text-align: center;
+}
+
+#socialMedia li i{
+    font-size: 1.7rem;
+    margin-left: 0.5rem;
+    opacity: 0.6;
+}
+
+#socialMedia li i:hover{
+    transform:scale(1.1);
+    opacity: 1;
+}
+
+#signUpEmail{
+    background-color: white;
+    margin: 0rem;
+    width: 8rem;
+    margin-top: 1rem;
+}
+
+#signUpSubscribe button{
+    width: 11rem;
+    font-size: 1rem;
+    height: 2.5rem;
+    background-color: #ff0000a0;
+}
+
+#signUpSubscribe button:hover{
+    background-color: red;
+}
+
+#signUpSubscribe{
+    margin-top: 2rem;
+    width: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttomAd{
+    height: 20rem;
+    width: 100%;
+}
+
+.buttomAd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
