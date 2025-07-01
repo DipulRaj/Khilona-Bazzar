@@ -1,1 +1,1 @@
-# Khilona-Bazzar
+Khilona Bazzar 🧸 is a fully responsive toy store front-end website built using HTML, CSS, and JavaScript. It features category-based toy listings, user-friendly navigation, search and subscription functionality, and a clean UI inspired by modern e-commerce design principles.
